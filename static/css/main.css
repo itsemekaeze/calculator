@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 100%;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.display,
+.button-digit,
+.button-mathfunction,
+.Clear-button,
+.decimal-digit,
+.del-button {
+
+  width: 18%;
+  margin: 2px 0;
+  height: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.display {
+  height: 40px;
+  width: 370px;
+  margin-right: 10px;
+  color: grey;
+  background-color: black;
+  font-size: 28px;
+  outline: none;
+  border: 2px solid grey;
+  padding: 20px 25px 20px 0;
+  text-align: right;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.button-digit {
+    border-radius: 50%;
+    background-color: #434343;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 3px;
+}
+
+.button-mathfunction {
+  color: white;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: 2px;
+  margin-right: 3px;
+}
+
+.button-digit:hover,
+.decimal-digit:hover,
+.del-button:hover,
+.button-mathfunction:hover,
+.Clear-button:hover {
+  opacity: .5;
+}
+
+.Clear-button,
+.del-button {
+  color: white;
+  background-color: darkgreen;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 2px;
+  margin-right: 3px;
+}
+
+.decimal-digit {
+  color: white;
+  border: none;
+  background-color: darkgreen;
+  border-radius: 50%;
+  margin-right: 3px;
+}
